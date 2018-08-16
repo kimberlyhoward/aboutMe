@@ -3,36 +3,43 @@ body {
     margin: 0; 
     padding: 5px;
     line-height: 150%;
-    color: #777777;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    width: 960px;
+    margin-top: 20px;
   }
 
-  h1 {
-     color: black;
-     font-size: 30px;
-     text-align: center;
-     width: 100%; 
-     padding: 40px, 40px, 40px, 40px;
-     line-height: 150%;
-    width: 250px;
-    float: left;
-    margin-left: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   }
-
-   .headerItem {
-    float: right;
+/* My Name in the header */
+.name {
+    background: url("../images/regal.png");
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+    color: black;
+    padding-left: 25px; 
+    padding-right: 15px; 
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 4px;
+    border-bottom-color: #cccccc;
+}
+/* Links in the Header */
+.websites {
+    font-family: 'Courgette', cursive;
     font-size: 15px;
-    margin-top: 30px;
-    padding: 20px;
-    background: url("../images/regal.png");
-   }
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+}
 
-  header {
-    background: url("../images/regal.png");
-  }
-  
-   .clearfix{
-     overflow: auto;
-   }
+.aboutMe {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: black;
+    padding-left: 5%;
+}
