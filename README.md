@@ -1,2 +1,6 @@
 # aboutMe
-A website about me, personal.
+A website about me and some of personal interests.
+
+
+Technologies Used:
+Bootstrap
