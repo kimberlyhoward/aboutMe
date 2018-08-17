@@ -38,11 +38,27 @@ body {
     border-radius: 4px;
 }
 
-.aboutMe h1 .p {
+.aboutMe {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: black;
+    text-align: center;
+}   
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-left: 5%;    
+    padding-right: 5%;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
     padding-left: 5%;
+    text-align: left; 
 }
 
 .thead {
@@ -58,4 +74,75 @@ body {
     color: black;
     padding-left: 5%; 
     padding-right: 5%;
+}
+
+@keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    20% {
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+  
+    40% {
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+  
+    80% {
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+  
+    to {
+      opacity: 1;
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .bounceIn {
+    animation-duration: 0.75s;
+    animation-name: bounceIn;
+  }
+
+  /* alert box */
+.alert {
+    padding: 20px;
+    background-color:  green;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
 }
